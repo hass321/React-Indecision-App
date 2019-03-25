@@ -1,0 +1,37 @@
+.big-button{
+    background: $purple;
+    border: none;
+    border-bottom: 0.6rem solid darken($purple, 10%);
+    width: 100%;
+    color:white;
+    font-weight: bold;
+    padding: 2.4rem 0;
+    margin-bottom: $m-size;
+    font-size: $l-size;
+}
+
+.big-button:disabled{
+    opacity: 0.5;
+}
+
+.button{
+    background: $purple;
+    border: none;
+    border-bottom: .3rem solid darken($purple,10%);
+    color: white;
+    padding: $s-size;
+}
+
+.button--link{
+    background: none;
+    border: none;
+    color: $off-white;
+    padding: 0;
+}
+
+//For desktop
+@media (min-width: $desktop-breakPoint){
+    .big-button{
+        margin-bottom: $xl-size;
+    }
+}
