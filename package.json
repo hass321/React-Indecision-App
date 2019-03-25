@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "live-server public/index.html"
+    "start": "live-server docs/"
   },
   "author": "Hassan",
   "license": "MIT",
